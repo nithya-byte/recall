@@ -1,0 +1,78 @@
+pong game
+
+1. if condition
+2. creating sprite
+3. for loop
+4. gamestates
+5. animations and adding sound
+6. thunkable
+
+7. isTouching(sprites)
+
+1. bounce ( when 2 sprite objects have velocity)
+2. bounceOff(one sprite has a velocity and other doesnt have a veocity)
+3. collide(trex collide with the ground)
+4. displace(ball.displace (target) -> target will be out of screen)
+
+trex game
+
+1. gravity
+2. creating infinte ground.
+3. console.log()
+4. Random randomNumber(min,max)
+5. % - MOD operator - give sthe remainder
+6. (World.frameCount%50==0)
+7. string1+string2;
+8. lifetime
+9. Groups -> multiple sprite objects.
+10. collider for sprites
+11. game adapativity- increasing the velocity with the help of score
+12. scope of variables 1. global 2. local variables {}
+
+p5editor
+
+1. preload => load the assests( sound, images into a variable).
+2. settup => initialize, create sprites 
+3. draw => drawSprites().
+4. web server
+5. host code in github
+
+Angry birds
+
+1. library
+2. physics engine - ball bounce(restitution)
+3. class- constructor- functions inside the class, objects(customize the class)
+4. Inheritance (superclas and subclass, parent and child class, baseclass ). Extends
+5.image(this.image(property in which the image path is loaded, x,y, width,height)
+6. constrained bodies- options(bodyA,bodyB,pointB). Matter.Constraint.create(options);
+7. keyPressed= keyCode =(Ascii value)
+7. mouseDragged
+8. MoueReleased
+9. Arrays [1,2,3,4] 2 dimentional [[1,2],[2,3]] 
+10. json and api call
+11. debugging tips
+
+
+multiplayer car racing game
+
+1. reading the value from db (database.ref("node").on("value",function(data){
+variable=data.val();
+})
+2. update
+database.ref("/").update({node:value});
+3. set
+database.ref("node").set({node:value});
+4. displayWidth
+5. displayHeight
+6. for each tab , index => playerCount, we identified the curent tab player with the help of index.
+ we marked th player by creating an ellipse and coloring it with red color.
+7. form = textbox, input button
+
+
+
+
+
+
+
+
+
